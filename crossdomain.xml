@@ -1,0 +1,9 @@
+<cross-domain-policy>	
+	<allow-access-from domain="*"/>
+	<allow-http-request-headers-from domain="*" headers="*"/>
+	<allow-http-request-headers-from domain="arkadeo.com" headers="*"/>
+	
+	<site-control permitted-cross-domain-policies="master-only"/>
+	<allow-access-from domain="*" to-ports="*" />
+	<allow-http-request-headers-from domain="" headers="*"/>
+</cross-domain-policy>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<app file="anim" title="SVG Animation" main="k.anim.Main" version="0.0.1" company="kLabz" package="com.klabz.anim" />
+
+	<haxeflag name="-dce std" if="haxe3" />
+	<haxedef name="FLX_NO_GAMEPAD" if="flash" />
+	<source path="src" />
+
+	<haxelib name="format" />
+	<haxelib name="svg" />
+	<haxelib name="openfl" />
+	<haxelib name="flixel" />
+
+	<window fps="60" width="400" height="200" background="0xDBDEE3" orientation="portrait" resizable="true" if="flash" />
+</project>

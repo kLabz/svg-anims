@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<keys name="Inkscape default">
+  <bind key="S" modifiers="Ctrl,Alt,Shift" action="FitCanvasToSelection" />
+</keys>

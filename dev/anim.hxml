@@ -1,0 +1,8 @@
+-cp src/
+-js anim.js
+-main k.anim.JS
+-lib jquery
+-D embed-js
+
+--next
+-cmd lime build anim.xml flash

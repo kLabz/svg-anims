@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<title>SVG Anim</title>
+		<script type="text/javascript" src="anim.js"></script>
+		<style type="text/css">
+			html, body { background: #DBDEE3; }
+			#form { text-align: center; }
+			#anim_swf { margin: 20px auto; text-align: center; }
+			input[type="text"] { width: 120px; }
+		</style>
+	</head>
+	<body>
+		<form onsubmit="return k.anim.JS.loadAnim();" id="form">
+			<input type="hidden" id="svgpath" value="http://svg-anims.dev/" /> <!-- CHANGE THIS TO POINT TO YOUR SVG FOLDER -->
+			File name: <input type="text" id="filename" /> <!-- WITHOUT THE .SVG -->
+			- Frame size: <input type="text" id="fwidth" /> x <input type="text" id="fheight" /> 
+			- FPS: <input type="text" id="fps" />
+			- <input type="checkbox" id="mirror" /> Mirror
+			- <input type="submit" onclick="return k.anim.JS.loadAnim();" value="Load animation" />
+		</form>
+
+		<div id="anim_swf"></div>
+	</body>
+</html>
